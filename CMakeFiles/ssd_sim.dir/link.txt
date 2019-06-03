@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/ssd_sim.dir/src/includes/avlTree.c.o CMakeFiles/ssd_sim.dir/src/includes/initialize.c.o CMakeFiles/ssd_sim.dir/src/ssd_stat/flash.c.o CMakeFiles/ssd_sim.dir/src/ssd_stat/pagemap.c.o CMakeFiles/ssd_sim.dir/src/ssd_sim.c.o  -o ssd_sim 
