@@ -2,7 +2,7 @@
 #include "ssd_sim.h"
 
 int main(int argc, char *argv[]) {
-    unsigned int i, j, k, l, m, mcount;
+    unsigned int i, j, k, mcount;
     struct ssd_info *ssd;
 
     struct configuration *config = (struct configuration *) malloc(sizeof(struct configuration));
@@ -56,10 +56,7 @@ int main(int argc, char *argv[]) {
 }
 
 struct ssd_info *simulate(struct ssd_info *ssd) {
-    int flag = 1, flag1 = 0;
-    double output_step = 0;
-    unsigned int a = 0, b = 0;
-
+    int flag = 1;
 
     printf("\n");
     printf("begin simulating.......................\n");
@@ -594,9 +591,6 @@ void trace_output(struct ssd_info *ssd) {
 void statistic_output(struct ssd_info *ssd) {
     unsigned int lpn_count = 0, i, j, k, m, erase = 0, plane_erase = 0;
     double gc_energy = 0.0;
-#ifdef DEBUG
-    printf("enter statistic_output,  current time:%lld\n", ssd->current_time);
-#endif
 
     for (i = 0; i < ssd->parameter->channel_number; i++) {
         for (j = 0; j < ssd->parameter->die_chip; j++) {
@@ -616,6 +610,7 @@ void statistic_output(struct ssd_info *ssd) {
             }
         }
     }
+
 
     fprintf(ssd->outputfile, "\n");
     fprintf(ssd->outputfile, "\n");
@@ -644,8 +639,14 @@ void statistic_output(struct ssd_info *ssd) {
     fprintf(ssd->outputfile, "write request count: %13d\n", ssd->write_request_count);
     fprintf(ssd->outputfile, "read request average size: %13f\n", ssd->ave_read_size);
     fprintf(ssd->outputfile, "write request average size: %13f\n", ssd->ave_write_size);
-    fprintf(ssd->outputfile, "read request average response time: %lld\n", ssd->read_avg / ssd->read_request_count);
-    fprintf(ssd->outputfile, "write request average response time: %lld\n", ssd->write_avg / ssd->write_request_count);
+    if (ssd->read_request_count != 0) {
+        fprintf(ssd->outputfile, "read request average response time: %lld\n", ssd->read_avg / ssd->read_request_count);
+    }
+    if (ssd->write_request_count != 0) {
+
+        fprintf(ssd->outputfile, "write request average response time: %lld\n",
+                ssd->write_avg / ssd->write_request_count);
+    }
     fprintf(ssd->outputfile, "buffer read hits: %13d\n", ssd->dram->buffer->read_hit);
     fprintf(ssd->outputfile, "buffer read miss: %13d\n", ssd->dram->buffer->read_miss_hit);
     fprintf(ssd->outputfile, "buffer write hits: %13d\n", ssd->dram->buffer->write_hit);
@@ -683,9 +684,16 @@ void statistic_output(struct ssd_info *ssd) {
     fprintf(ssd->statisticfile, "write request count: %13d\n", ssd->write_request_count);
     fprintf(ssd->statisticfile, "read request average size: %13f\n", ssd->ave_read_size);
     fprintf(ssd->statisticfile, "write request average size: %13f\n", ssd->ave_write_size);
-    fprintf(ssd->statisticfile, "read request average response time: %lld\n", ssd->read_avg / ssd->read_request_count);
-    fprintf(ssd->statisticfile, "write request average response time: %lld\n",
-            ssd->write_avg / ssd->write_request_count);
+
+    if (ssd->read_request_count != 0) {
+        fprintf(ssd->statisticfile, "read request average response time: %lld\n",
+                ssd->read_avg / ssd->read_request_count);
+    }
+    if (ssd->write_request_count != 0) {
+        fprintf(ssd->statisticfile, "write request average response time: %lld\n",
+                ssd->write_avg / ssd->write_request_count);
+    }
+
     fprintf(ssd->statisticfile, "buffer read hits: %13d\n", ssd->dram->buffer->read_hit);
     fprintf(ssd->statisticfile, "buffer read miss: %13d\n", ssd->dram->buffer->read_miss_hit);
     fprintf(ssd->statisticfile, "buffer write hits: %13d\n", ssd->dram->buffer->write_hit);

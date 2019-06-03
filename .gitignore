@@ -1,2 +1,5 @@
 .idea/*
 cmake-build-debug/*
+*.out
+para*.txt
+st*.dat
