@@ -1,2 +1,0 @@
-/usr/bin/ar qc libUTILS.a  CMakeFiles/UTILS.dir/includes/initialize.c.o
-/usr/bin/ranlib libUTILS.a

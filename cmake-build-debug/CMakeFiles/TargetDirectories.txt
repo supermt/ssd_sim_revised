@@ -1,9 +1,0 @@
-/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/CMakeFiles/ssd_sim.dir
-/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes/CMakeFiles/rebuild_cache.dir
-/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes/CMakeFiles/MOD_HEADS.dir
-/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes/CMakeFiles/edit_cache.dir
-/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat/CMakeFiles/rebuild_cache.dir
-/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat/CMakeFiles/MOD_SSD_STAT.dir
-/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat/CMakeFiles/edit_cache.dir

@@ -1,6 +1,6 @@
-# 1 "avlTree.c"
+
 #include "avlTree.h"
-# 14 "avlTree.c"
+
 int avlTreeHigh(TREE_NODE *pNode)
 {
  int lh=0,rh=0;
@@ -12,7 +12,7 @@ int avlTreeHigh(TREE_NODE *pNode)
 
  return (1+((lh>rh)?lh:rh));
 }
-# 41 "avlTree.c"
+
 int avlTreeCheck(tAVLTree *pTree , TREE_NODE *pNode)
 {
  int lh=0,rh=0;
@@ -66,7 +66,7 @@ int avlTreeCheck(tAVLTree *pTree , TREE_NODE *pNode)
 
  return 1;
 }
-# 117 "avlTree.c"
+
 static void R_Rotate(TREE_NODE **ppNode)
 {
  TREE_NODE *l_child = AVL_NULL;
@@ -81,7 +81,7 @@ static void R_Rotate(TREE_NODE **ppNode)
  pNode->tree_root = l_child;
  (*ppNode) = l_child;
 }
-# 151 "avlTree.c"
+
 static void L_Rotate(TREE_NODE **ppNode)
 {
  TREE_NODE *r_child = AVL_NULL;
@@ -96,7 +96,7 @@ static void L_Rotate(TREE_NODE **ppNode)
  pNode->tree_root = r_child;
  (*ppNode) = r_child;
 }
-# 175 "avlTree.c"
+
 static void LeftBalance(TREE_NODE **ppNode)
 {
  TREE_NODE *left_child = AVL_NULL;
@@ -145,7 +145,7 @@ static void LeftBalance(TREE_NODE **ppNode)
  if(tree_root && tree_root->right_child == pNode)
   tree_root->right_child = *ppNode;
 }
-# 233 "avlTree.c"
+
 static void RightBalance(TREE_NODE **ppNode)
 {
  TREE_NODE *left_child = AVL_NULL;
@@ -193,7 +193,7 @@ static void RightBalance(TREE_NODE **ppNode)
  if(tree_root && tree_root->right_child == pNode)
   tree_root->right_child = *ppNode;
 }
-# 302 "avlTree.c"
+
 static int avlDelBalance
 (
  tAVLTree *pTree ,
@@ -270,7 +270,7 @@ static int avlDelBalance
 
  return 1;
 }
-# 391 "avlTree.c"
+
 void AVL_TREE_LOCK
 (
  tAVLTree *pTree,
@@ -289,7 +289,7 @@ void AVL_TREE_LOCK
 #endif
  return;
 }
-# 419 "avlTree.c"
+
 void AVL_TREE_UNLOCK
 (
  tAVLTree *pTree
@@ -307,7 +307,7 @@ void AVL_TREE_UNLOCK
 #endif
  return;
 }
-# 446 "avlTree.c"
+
 void AVL_TREENODE_FREE
 (
  tAVLTree *pTree,
@@ -322,7 +322,7 @@ void AVL_TREENODE_FREE
 }
 
 #ifdef ORDER_LIST_WANTED
-# 476 "avlTree.c"
+
 static int orderListInsert
 (
  tAVLTree *pTree,
@@ -359,7 +359,7 @@ static int orderListInsert
  }
  return 1;
 }
-# 525 "avlTree.c"
+
 static int orderListRemove
 (
  tAVLTree *pTree,
@@ -404,7 +404,7 @@ static int orderListRemove
   return 0;
  }
 }
-# 579 "avlTree.c"
+
 TREE_NODE *avlTreeFirst
 (
  tAVLTree *pTree
@@ -418,7 +418,7 @@ TREE_NODE *avlTreeFirst
 
  return (TREE_NODE *)pTree->pListHeader;
 }
-# 602 "avlTree.c"
+
 TREE_NODE *avlTreeLast
 (
  tAVLTree *pTree
@@ -432,7 +432,7 @@ TREE_NODE *avlTreeLast
 
  return (TREE_NODE *)pTree->pListTail;
 }
-# 624 "avlTree.c"
+
 TREE_NODE *avlTreeNext
 (
  TREE_NODE *pNode
@@ -443,7 +443,7 @@ TREE_NODE *avlTreeNext
 
  return (TREE_NODE *)pNode->next;
 }
-# 643 "avlTree.c"
+
 TREE_NODE *avlTreePrev
 (
  TREE_NODE *pNode
@@ -455,7 +455,7 @@ TREE_NODE *avlTreePrev
  return (TREE_NODE *)pNode->prev;
 }
 #endif
-# 670 "avlTree.c"
+
 static int avlTreeInsert
 (
  tAVLTree *pTree ,
@@ -587,7 +587,7 @@ static int avlTreeInsert
 
  return 1;
 }
-# 828 "avlTree.c"
+
 static int avlTreeRemove
 (
  tAVLTree *pTree ,
@@ -743,7 +743,7 @@ static int avlTreeRemove
 
  return 1;
 }
-# 998 "avlTree.c"
+
 static TREE_NODE *avlTreeLookup
 (
  tAVLTree *pTree,
@@ -764,7 +764,7 @@ static TREE_NODE *avlTreeLookup
 
  return (TREE_NODE *)avlTreeLookup(pTree, pNode, pSearchKey);
 }
-# 1031 "avlTree.c"
+
 tAVLTree *avlTreeCreate(int *keyCompareFunc,int *freeFunc)
 {
  tAVLTree *pTree = (tAVLTree *)0;
@@ -795,7 +795,7 @@ tAVLTree *avlTreeCreate(int *keyCompareFunc,int *freeFunc)
 
  return (tAVLTree *)pTree;
 }
-# 1075 "avlTree.c"
+
 int avlTreeDel( tAVLTree *pTree ,TREE_NODE *pDelNode)
 {
  int ret = 0;
@@ -809,7 +809,7 @@ int avlTreeDel( tAVLTree *pTree ,TREE_NODE *pDelNode)
 
  return 1;
 }
-# 1102 "avlTree.c"
+
 int avlTreeDestroy
 (
  tAVLTree *pTree
@@ -836,7 +836,7 @@ int avlTreeDestroy
 
  return 0;
 }
-# 1142 "avlTree.c"
+
 int avlTreeFlush
 (
  tAVLTree *pTree
@@ -858,7 +858,7 @@ int avlTreeFlush
 
  return 0;
 }
-# 1178 "avlTree.c"
+
 int avlTreeAdd
 (
  tAVLTree *pTree ,
@@ -875,7 +875,7 @@ int avlTreeAdd
   pTree->count++;
  return ret;
 }
-# 1210 "avlTree.c"
+
 TREE_NODE *avlTreeFind
 (
  tAVLTree *pTree,
@@ -887,7 +887,7 @@ TREE_NODE *avlTreeFind
 
  return (TREE_NODE *)avlTreeLookup(pTree, pTree->pTreeHeader , pKeyNode);
 }
-# 1233 "avlTree.c"
+
 unsigned int avlTreeCount
 (
  tAVLTree *pTree

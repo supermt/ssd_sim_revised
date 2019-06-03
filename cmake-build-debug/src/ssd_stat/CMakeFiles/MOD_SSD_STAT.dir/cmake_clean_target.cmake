@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libMOD_SSD_STAT.a"
-)

@@ -1,4 +1,4 @@
-# 18 "ssd.h"
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>

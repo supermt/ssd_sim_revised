@@ -1,2 +1,0 @@
-/usr/bin/ar qc libDependency.a  CMakeFiles/Dependency.dir/initialize.c.o
-/usr/bin/ranlib libDependency.a

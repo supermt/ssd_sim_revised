@@ -1,4 +1,4 @@
-# 19 "flash.c"
+
 #include "flash.h"
 
 
@@ -332,7 +332,7 @@ struct ssd_info * insert2buffer(struct ssd_info *ssd,unsigned int lpn,int state,
  sector_count=size(state);
  key.group=lpn;
  buffer_node= (struct buffer_group*)avlTreeFind(ssd->dram->buffer, (TREE_NODE *)&key);
-# 360 "flash.c"
+
  if(buffer_node==NULL)
  {
   free_sector=ssd->dram->buffer->max_buffer_sector-ssd->dram->buffer->buffer_sector_count;
@@ -464,7 +464,7 @@ struct ssd_info * insert2buffer(struct ssd_info *ssd,unsigned int lpn,int state,
     }
     else
     {
-# 500 "flash.c"
+
      ssd->dram->buffer->write_miss_hit++;
 
      if(ssd->dram->buffer->buffer_sector_count>=ssd->dram->buffer->max_buffer_sector)
@@ -1552,7 +1552,7 @@ Status services_2_write(struct ssd_info * ssd,unsigned int channel,unsigned int 
 
 struct ssd_info *process(struct ssd_info *ssd)
 {
-# 1595 "flash.c"
+
  int old_ppn=-1,flag_die=-1;
  unsigned int i,chan,random_num;
  unsigned int flag=0,new_write=0,chg_cur_time_flag=1,flag2=0,flag_gc=0;
@@ -2056,7 +2056,7 @@ Status get_ppn_for_normal_command(struct ssd_info * ssd, unsigned int channel,un
  }
 
 }
-# 2109 "flash.c"
+
 Status get_ppn_for_advanced_commands(struct ssd_info *ssd,unsigned int channel,unsigned int chip,struct sub_request * * subs ,unsigned int subs_count,unsigned int command)
 {
  unsigned int die=0,plane=0;

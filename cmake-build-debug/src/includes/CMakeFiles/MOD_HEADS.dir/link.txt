@@ -1,2 +1,0 @@
-/usr/bin/ar qc libMOD_HEADS.a  CMakeFiles/MOD_HEADS.dir/avlTree.c.o CMakeFiles/MOD_HEADS.dir/initialize.c.o
-/usr/bin/ranlib libMOD_HEADS.a

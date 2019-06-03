@@ -7,5 +7,4 @@ add_subdirectory(src/includes)
 add_subdirectory(src/ssd_stat)
 
 add_executable(ssd_sim src/ssd_sim.c)
-
 target_link_libraries(ssd_sim MOD_HEADS MOD_SSD_STAT)

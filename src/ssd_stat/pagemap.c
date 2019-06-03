@@ -582,7 +582,7 @@ unsigned int get_ppn_for_gc(struct ssd_info *ssd, unsigned int channel, unsigned
 
  return ppn;
 }
-# 614 "pagemap.c"
+
 Status erase_operation(struct ssd_info *ssd, unsigned int channel, unsigned int chip, unsigned int die, unsigned int plane, unsigned int block)
 {
  unsigned int i = 0;
@@ -757,7 +757,7 @@ Status erase_planes(struct ssd_info *ssd, unsigned int channel, unsigned int chi
   return SUCCESS;
  }
 }
-# 800 "pagemap.c"
+
 int gc_direct_erase(struct ssd_info *ssd, unsigned int channel, unsigned int chip, unsigned int die, unsigned int plane)
 {
  unsigned int lv_die = 0, lv_plane = 0;
@@ -1277,7 +1277,7 @@ Status gc_for_channel(struct ssd_info *ssd, unsigned int channel)
   }
  }
 }
-# 1329 "pagemap.c"
+
 unsigned int gc(struct ssd_info *ssd, unsigned int channel, unsigned int flag)
 {
  unsigned int i;

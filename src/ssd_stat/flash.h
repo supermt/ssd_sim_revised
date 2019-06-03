@@ -1,4 +1,4 @@
-# 19 "flash.h"
+
 #ifndef FLASH_H
 #define FLASH_H 100000
 
