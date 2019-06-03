@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/ssd_sim.dir/src/ssd_sim.c.o  -o ssd_sim src/includes/libMOD_HEADS.a src/ssd_stat/libMOD_SSD_STAT.a src/includes/libMOD_HEADS.a 

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Dependency"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\includes\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Dependency">
+				<Option output="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/libDependency.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/Makefile&quot;  VERBOSE=1 Dependency"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Dependency/fast">
+				<Option output="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/libDependency.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/Makefile&quot;  VERBOSE=1 Dependency/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/includes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/includes/initialize.c">
+			<Option target="Dependency"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/includes/initialize.h">
+			<Option target="Dependency"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/includes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\includes\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

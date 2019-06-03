@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMOD_SSD_STAT.a  CMakeFiles/MOD_SSD_STAT.dir/pagemap.c.o CMakeFiles/MOD_SSD_STAT.dir/flash.c.o
+/usr/bin/ranlib libMOD_SSD_STAT.a

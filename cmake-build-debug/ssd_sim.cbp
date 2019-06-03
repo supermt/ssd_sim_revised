@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ssd_sim"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\includes\;CMake Files\src\ssd_stat\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ssd_sim">
+				<Option output="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/ssd_sim" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 ssd_sim"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ssd_sim/fast">
+				<Option output="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/ssd_sim" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 ssd_sim/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MOD_HEADS">
+				<Option output="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes/libMOD_HEADS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes/Makefile&quot;  VERBOSE=1 MOD_HEADS"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MOD_HEADS/fast">
+				<Option output="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes/libMOD_HEADS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes/Makefile&quot;  VERBOSE=1 MOD_HEADS/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/includes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MOD_SSD_STAT">
+				<Option output="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat/libMOD_SSD_STAT.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat/Makefile&quot;  VERBOSE=1 MOD_SSD_STAT"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MOD_SSD_STAT/fast">
+				<Option output="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat/libMOD_SSD_STAT.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat/Makefile&quot;  VERBOSE=1 MOD_SSD_STAT/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jinghuayu2/CLionProjects/ssd_sim/cmake-build-debug/src/ssd_stat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/src/includes/avlTree.c">
+			<Option target="MOD_HEADS"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/src/includes/avlTree.h">
+			<Option target="MOD_HEADS"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/src/includes/initialize.c">
+			<Option target="MOD_HEADS"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/src/includes/initialize.h">
+			<Option target="MOD_HEADS"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/src/ssd_sim.c">
+			<Option target="ssd_sim"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/src/ssd_sim.h">
+			<Option target="ssd_sim"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/src/ssd_stat/flash.c">
+			<Option target="MOD_SSD_STAT"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/src/ssd_stat/flash.h">
+			<Option target="MOD_SSD_STAT"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/src/ssd_stat/pagemap.c">
+			<Option target="MOD_SSD_STAT"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/src/ssd_stat/pagemap.h">
+			<Option target="MOD_SSD_STAT"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/src/includes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\includes\"/>
+		</Unit>
+		<Unit filename="/home/jinghuayu2/CLionProjects/ssd_sim/src/ssd_stat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ssd_stat\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
